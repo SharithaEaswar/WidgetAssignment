@@ -1,0 +1,33 @@
+{
+  "name": "assignmentbewgle",
+  "version": "1.0.0",
+  "description": "assignment ",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFiles/Config.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/built/cli.js",
+    "cucumbertest": "protractor JSFiles/cucumberconfig.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "Sharitha",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cucumber": "~6.0.1",
+    "@types/jasmine": "~3.5.10",
+    "@types/jasminewd2": "~2.0.8",
+    "@types/node": "~14.0.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "~6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "jasmine": "~3.5.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "~6.2.1",
+    "python": "0.0.4",
+    "python-shell": "^2.0.1",
+    "qaf": "0.0.11",
+    "ts-node": "~8.10.1",
+    "typescript": "~3.9.5"
+  }
+}
