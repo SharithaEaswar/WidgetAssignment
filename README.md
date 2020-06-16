@@ -7,8 +7,9 @@ python .\Python\CSVCopy.py
 
 # to create update-json file
 npm run webdriver-update
-# compile and Run the test 
+# compile test 
 tsc
+# Run the Test
 npm run cucumbertest   
 #Check results from cucumber_report.html
 
